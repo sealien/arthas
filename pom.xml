@@ -47,7 +47,7 @@
 
     <groupId>com.taobao.arthas</groupId>
     <artifactId>arthas-all</artifactId>
-    <version>3.1.1-SNAPSHOT</version>
+    <version>3.1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>arthas-all</name>
@@ -89,7 +89,7 @@
             <dependency>
                 <groupId>com.alibaba.middleware</groupId>
                 <artifactId>termd-core</artifactId>
-                <version>1.1.7.2</version>
+                <version>1.1.7.4</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.middleware</groupId>
@@ -146,27 +146,27 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-common</artifactId>
-                <version>4.1.29.Final</version>
+                <version>4.1.36.Final</version>
             </dependency>
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-buffer</artifactId>
-                <version>4.1.29.Final</version>
+                <version>4.1.36.Final</version>
             </dependency>
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-handler</artifactId>
-                <version>4.1.29.Final</version>
+                <version>4.1.36.Final</version>
             </dependency>
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-transport</artifactId>
-                <version>4.1.29.Final</version>
+                <version>4.1.36.Final</version>
             </dependency>
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-codec-http</artifactId>
-                <version>4.1.29.Final</version>
+                <version>4.1.36.Final</version>
             </dependency>
 
             <dependency>
