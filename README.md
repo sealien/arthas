@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/alibaba/arthas.svg?branch=master)](https://travis-ci.org/alibaba/arthas)
 [![codecov](https://codecov.io/gh/alibaba/arthas/branch/master/graph/badge.svg)](https://codecov.io/gh/alibaba/arthas)
-![maven](https://img.shields.io/maven-central/v/com.taobao.arthas/arthas-packaging.svg)
+[![maven](https://img.shields.io/maven-central/v/com.taobao.arthas/arthas-packaging.svg)](https://search.maven.org/search?q=g:com.taobao.arthas)
 ![license](https://img.shields.io/github/license/alibaba/arthas.svg)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/alibaba/arthas.svg)](http://isitmaintained.com/project/alibaba/arthas "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/alibaba/arthas.svg)](http://isitmaintained.com/project/alibaba/arthas "Percentage of issues still open")
@@ -19,7 +19,7 @@ Arthas allows developers to troubleshoot production issues for Java applications
 
 Often times, the production system network is inaccessible from the local development environment. If issues are encountered in production systems, it is impossible to use IDEs to debug the application remotely. More importantly, debugging in production environment is unacceptable, as it will suspend all the threads, resulting in the suspension of business services. 
 
-Developers could always try to reproduce the same issue on the test/staging environment. However, this is tricky as some issues cannot be be reproduced easily on a different environment, or even disappear once restarted. 
+Developers could always try to reproduce the same issue on the test/staging environment. However, this is tricky as some issues cannot be reproduced easily on a different environment, or even disappear once restarted. 
 
 And if you're thinking of adding some logs to your code to help troubleshoot the issue, you will have to go through the following lifecycle; test, staging, and then to production. Time is money! This approach is inefficient! Besides, the issue may not be reproducible once the JVM is restarted, as described above.
 
@@ -53,7 +53,7 @@ Arthas was built to solve these issues. A developer can troubleshoot your produc
 Download`arthas-boot.jar`，Start with `java` command:
 
 ```bash
-wget https://alibaba.github.io/arthas/arthas-boot.jar
+curl -O https://alibaba.github.io/arthas/arthas-boot.jar
 java -jar arthas-boot.jar
 ```
 
@@ -81,14 +81,16 @@ You can enter its interactive interface by executing `as.sh`, or execute `as.sh 
 * [Online Tutorials(Recommend)](https://alibaba.github.io/arthas/arthas-tutorials?language=en)
 * [User manual](https://alibaba.github.io/arthas/en)
 * [Installation](https://alibaba.github.io/arthas/en/install-detail.html)
+* [Download](https://alibaba.github.io/arthas/en/download.html)
 * [Quick start](https://alibaba.github.io/arthas/en/quick-start.html)
 * [Advanced usage](https://alibaba.github.io/arthas/en/advanced-use.html)
 * [Commands](https://alibaba.github.io/arthas/en/commands.html)
+* [WebConsole](https://alibaba.github.io/arthas/en/web-console.html)
 * [Docker](https://alibaba.github.io/arthas/en/docker.html)
 * [User cases](https://github.com/alibaba/arthas/issues?q=label%3Auser-case)
 * [Questions and answers](https://github.com/alibaba/arthas/issues?utf8=%E2%9C%93&q=label%3Aquestion-answered+)
-* [How to contribute](https://github.com/alibaba/arthas/blob/master/CONTRIBUTING.md)
-* [Release Notes](https://alibaba.github.io/arthas/en/release-notes.html)
+* [Compile and debug/How to contribute](https://github.com/alibaba/arthas/blob/master/CONTRIBUTING.md)
+* [Release Notes](https://github.com/alibaba/arthas/releases)
 
 
 ### Feature Showcase
@@ -357,6 +359,7 @@ Welcome to register the company name in this issue: https://github.com/alibaba/a
 ![狐狸金服](static/hulijingfu.png)
 ![三体云](static/santiyun.png)
 ![证大文化](static/zhengdawenhua.png)
+![连连支付](static/lianlianpay.png)
 ![Acmedcare+](static/acmedcare.png)
 ![好慷](static/homeking365_log.png)
 ![来电科技](static/laidian.png)
@@ -406,6 +409,40 @@ Welcome to register the company name in this issue: https://github.com/alibaba/a
 ![九鼎瑞信](static/evercreative.jpg)
 ![小米有品](static/xiaomiyoupin.png)
 ![欧冶云商](static/ouyeel.png)
+![投投科技](static/toutou.png)
+![饿了么](static/ele.png)
+![58同城](static/58.png)
+![上海浪沙](static/runsa.png)
+![符律科技](static/fhldtech.png)
+![顺丰科技](static/sf.png)
+![新致软件](static/newtouch.png)
+![北京华宇信息](static/thunisoft.png)
+![太平洋保险](static/cpic.png)
+![旅享网络](static/risingch.png)
+![水滴互联](static/shuidihuzhu.png)
+![贝壳找房](static/ke.png)
+![嘟嘟牛](static/dodonew.png)
+![云幂信息](static/yunmixinxi.png)
+![随手科技](static/sui.png)
+![妈妈去哪儿](static/mamaqunaer.jpg)
+![云实信息](static/realscloud.png)
+![BBD数联铭品](static/bbdservice.png)
+![伙伴集团](static/zhaoshang800.png)
+![数梦工场](static/dtdream.png)
+![安恒信息](static/dbappsecurity.png)
+![亚信科技](static/asiainfo.png)
+![云舒写](static/yunshuxie.png)
+![微住](static/iweizhu.png)
+![月亮小屋](static/bluemoon.png)
+![大搜车](static/souche.png)
+![今日图书](static/jinritushu.png)
+![竹间智能](static/emotibot.png)
+![数字认证](static/bjca.png)
+![360金融](static/360jinrong.png)
+### Derivative Projects
+
+* [Bistoury: A project that integrates Arthas](https://github.com/qunarcorp/bistoury)
+* [A fork of arthas using MVEL](https://github.com/XhinLiang/arthas)
 
 ### Credit
 

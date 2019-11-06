@@ -6,7 +6,7 @@
 
 [![Build Status](https://travis-ci.org/alibaba/arthas.svg?branch=master)](https://travis-ci.org/alibaba/arthas)
 [![codecov](https://codecov.io/gh/alibaba/arthas/branch/master/graph/badge.svg)](https://codecov.io/gh/alibaba/arthas)
-![maven](https://img.shields.io/maven-central/v/com.taobao.arthas/arthas-packaging.svg)
+[![maven](https://img.shields.io/maven-central/v/com.taobao.arthas/arthas-packaging.svg)](https://search.maven.org/search?q=g:com.taobao.arthas)
 ![license](https://img.shields.io/github/license/alibaba/arthas.svg)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/alibaba/arthas.svg)](http://isitmaintained.com/project/alibaba/arthas "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/alibaba/arthas.svg)](http://isitmaintained.com/project/alibaba/arthas "Percentage of issues still open")
@@ -39,7 +39,7 @@ English version goes [here](README.md).
 下载`arthas-boot.jar`，然后用`java -jar`的方式启动：
 
 ```bash
-wget https://alibaba.github.io/arthas/arthas-boot.jar
+curl -O https://alibaba.github.io/arthas/arthas-boot.jar
 java -jar arthas-boot.jar
 ```
 
@@ -70,14 +70,16 @@ curl -L https://alibaba.github.io/arthas/install.sh | sh
 * [在线教程(推荐)](https://alibaba.github.io/arthas/arthas-tutorials?language=cn)
 * [用户文档](https://alibaba.github.io/arthas/)
 * [安装](https://alibaba.github.io/arthas/install-detail.html)
+* [下载](https://alibaba.github.io/arthas/download.html)
 * [快速入门](https://alibaba.github.io/arthas/quick-start.html)
 * [进阶使用](https://alibaba.github.io/arthas/advanced-use.html)
 * [命令列表](https://alibaba.github.io/arthas/commands.html)
+* [WebConsole](https://alibaba.github.io/arthas/web-console.html)
 * [Docker](https://alibaba.github.io/arthas/docker.html)
 * [用户案例](https://github.com/alibaba/arthas/issues?q=label%3Auser-case)
 * [常见问题](https://github.com/alibaba/arthas/issues?utf8=%E2%9C%93&q=label%3Aquestion-answered+)
-* [参与贡献](https://github.com/alibaba/arthas/blob/master/CONTRIBUTING.md)
-* [Release Notes](https://alibaba.github.io/arthas/release-notes.html)
+* [编译调试/参与贡献](https://github.com/alibaba/arthas/blob/master/CONTRIBUTING.md)
+* [Release Notes](https://github.com/alibaba/arthas/releases)
 * [QQ群/钉钉群](https://alibaba.github.io/arthas/contact-us.html)
 
 Gitee文档镜像： https://arthas.gitee.io/
@@ -351,6 +353,7 @@ $ classloader
 ![狐狸金服](static/hulijingfu.png)
 ![三体云](static/santiyun.png)
 ![证大文化](static/zhengdawenhua.png)
+![连连支付](static/lianlianpay.png)
 ![Acmedcare+](static/acmedcare.png)
 ![好慷](static/homeking365_log.png)
 ![来电科技](static/laidian.png)
@@ -400,6 +403,41 @@ $ classloader
 ![九鼎瑞信](static/evercreative.jpg)
 ![小米有品](static/xiaomiyoupin.png)
 ![欧冶云商](static/ouyeel.png)
+![投投科技](static/toutou.png)
+![饿了么](static/ele.png)
+![58同城](static/58.png)
+![上海浪沙](static/runsa.png)
+![符律科技](static/fhldtech.png)
+![顺丰科技](static/sf.png)
+![新致软件](static/newtouch.png)
+![北京华宇信息](static/thunisoft.png)
+![太平洋保险](static/cpic.png)
+![旅享网络](static/risingch.png)
+![水滴互联](static/shuidihuzhu.png)
+![贝壳找房](static/ke.png)
+![嘟嘟牛](static/dodonew.png)
+![云幂信息](static/yunmixinxi.png)
+![随手科技](static/sui.png)
+![妈妈去哪儿](static/mamaqunaer.jpg)
+![云实信息](static/realscloud.png)
+![BBD数联铭品](static/bbdservice.png)
+![伙伴集团](static/zhaoshang800.png)
+![数梦工场](static/dtdream.png)
+![安恒信息](static/dbappsecurity.png)
+![亚信科技](static/asiainfo.png)
+![云舒写](static/yunshuxie.png)
+![微住](static/iweizhu.png)
+![月亮小屋](static/bluemoon.png)
+![大搜车](static/souche.png)
+![今日图书](static/jinritushu.png)
+![竹间智能](static/emotibot.png)
+![数字认证](static/bjca.png)
+![360金融](static/360jinrong.png)
+
+### 洐生项目
+
+* [Bistoury: 一个集成了Arthas的项目](https://github.com/qunarcorp/bistoury)
+* [一个使用MVEL脚本的fork](https://github.com/XhinLiang/arthas)
 
 ### Credit
 
